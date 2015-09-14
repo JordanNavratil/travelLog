@@ -2,6 +2,58 @@
   display: none;
 }
 
+@font-face {
+  font-family: "River";
+  src:url("dk_petit_four/DK Petit Four.otf");
+  format("truetype");
+}
+
+@font-face {
+  font-family: "OrangeJuice";
+  src:url("orange juice 2.0.ttf");
+  format("truetype");
+}
+
+h1, h2 {
+
+  font-family: "River", serif;
+  font-size: 450%;
+  font-weight: 700;
+  color: #B20000;
+}
+
+body {
+    background-image: url("watercolour-world-map.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "River", serif;
+
+    color: #B20000;
+}
+
+label {
+  font-family: "River", serif;
+  font-size: 175%;
+  font-weight: 700;
+  color: #0033CC;
+}
+/*div.row {
+  font-family: "River", serif;
+  font-size: 200%;
+  font-weight: 700;
+  color: #B20000;
+}*/
+
+/*div.row {
+  font-family: "OrangeJuice", serif;
+  color: black;
+}*/
+
+.opaque {
+   background-color: rgba(245, 245, 245, 0.4);
+}
+
 .place {
   cursor: pointer;
   color: #0088cc;
